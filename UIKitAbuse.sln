@@ -1,0 +1,44 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlacingViews", "PlacingViews\PlacingViews.csproj", "{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Debug|iPhone.Build.0 = Debug|iPhone
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Release|iPhone.ActiveCfg = Release|iPhone
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Release|iPhone.Build.0 = Release|iPhone
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Release|iPhone.Build.0 = Release|iPhone
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PlacingViews\PlacingViews.csproj
+	EndGlobalSection
+EndGlobal
