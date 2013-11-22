@@ -3,19 +3,17 @@ using System;
 using System.Drawing;
 using System.Linq;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace UIKitAbuse.PlacingViews {
     public class PlacingViewsViewController : UIViewController {
-        public Random Rand;
-        public PlacingViewsViewController(Random rand) {
-            Rand = rand;
-        }
+        static Random rand = new Random();
 
         static readonly SizeF ItemSize = new SizeF(30f, 30f);
-        UIColor GetRandomColor() {
-            int red = Rand.Next(255);
-            int green = Rand.Next(255);
-            int blue = Rand.Next(255);
+        static UIColor GetRandomColor() {
+            int red = rand.Next(255);
+            int green = rand.Next(255);
+            int blue = rand.Next(255);
             UIColor color = UIColor.FromRGBA(
                 (red / 255.0f),
                 (green / 255.0f),
@@ -43,6 +41,11 @@ namespace UIKitAbuse.PlacingViews {
                     };
                     newTapView.Center = location;
                     View.Add(newTapView);
+                    // Remove the view after it's been around a while.
+                    Task.Delay(5000).ContinueWith(_ => InvokeOnMainThread(() => {
+                        newTapView.RemoveFromSuperview();
+                        newTapView.Dispose();
+                    }));
                 }
             });
             View.AddGestureRecognizer(tapRecognizer);
