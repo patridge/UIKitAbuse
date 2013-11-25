@@ -1,6 +1,8 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFontIcons", "CustomFontIcons\CustomFontIcons.csproj", "{5CD44C45-12F5-4646-A2B2-00B48BC1C839}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlacingViews", "PlacingViews\PlacingViews.csproj", "{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}"
 EndProject
 Global
@@ -39,6 +41,6 @@ Global
 		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = PlacingViews\PlacingViews.csproj
+		StartupItem = CustomFontIcons\CustomFontIcons.csproj
 	EndGlobalSection
 EndGlobal
