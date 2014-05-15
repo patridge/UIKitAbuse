@@ -4,5 +4,5 @@ Demo code for a series of blog posts about using UIKit in Xamarin.iOS to make [S
 
 ## Posts
 
-* [Part 1: Detecting Taps and Placing Views with UITapGestureRecognizer](http://www.patridgedev.com/2013/11/22/smudges-part-1-detecting-taps/) [code](https://github.com/patridge/UIKitAbuse/tree/master/PlacingViews)
-* [Part 2: Using Custom Fonts.](http://www.patridgedev.com/2014/05/15/smudges-part-2-custom-font/) [code](https://github.com/patridge/UIKitAbuse/tree/master/CustomFontIcons)
+* [Part 1: Detecting Taps and Placing Views with UITapGestureRecognizer](http://www.patridgedev.com/2013/11/22/smudges-part-1-detecting-taps/) [[code]](https://github.com/patridge/UIKitAbuse/tree/master/PlacingViews)
+* [Part 2: Using Custom Fonts](http://www.patridgedev.com/2014/05/15/smudges-part-2-custom-font/) [[code]](https://github.com/patridge/UIKitAbuse/tree/master/CustomFontIcons)
