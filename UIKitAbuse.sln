@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFontIcons", "CustomFo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlacingViews", "PlacingViews\PlacingViews.csproj", "{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingSounds", "PlayingSounds\PlayingSounds.csproj", "{244B6105-E4F8-4343-825B-2D7111265FA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -15,6 +17,18 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Debug|iPhone.Build.0 = Debug|iPhone
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Release|iPhone.ActiveCfg = Release|iPhone
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Release|iPhone.Build.0 = Release|iPhone
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{244B6105-E4F8-4343-825B-2D7111265FA1}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{5CD44C45-12F5-4646-A2B2-00B48BC1C839}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
@@ -41,7 +55,7 @@ Global
 		{E76155D0-24C6-4BCB-919F-ECF27AA2B7CF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = CustomFontIcons\CustomFontIcons.csproj
+		StartupItem = PlayingSounds\PlayingSounds.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = null
